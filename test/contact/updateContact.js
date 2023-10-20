@@ -43,7 +43,7 @@ it('should be able to get contact id  ', async()=>{
     }
   }).timeout(20000)
 
-    it('should be able to update the first name  ', async()=>{
+    it('should be able to update the phone  ', async()=>{
         const payload = {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -61,7 +61,7 @@ it('should be able to get contact id  ', async()=>{
         }).timeout(20000)
 
 
-        it('contact details should not be empty ', async()=>{
+        it('should be able to update first name', async()=>{
             const payload = {
                 headers: {
                   Authorization: `Bearer ${token}`,
